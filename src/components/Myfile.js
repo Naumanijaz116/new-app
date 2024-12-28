@@ -1,13 +1,15 @@
-import React from 'react'
+import { useState } from "react";
+// import React {useState} from 'react';
 
-let arr = ['44','35','55','77','32','40'];
 
 const Myfile = () => {
+        const[arr , setarr]=useState(
+      arr = ['44','35','55','77','32','40']
+  )
   return (
     <>
       <h1>My Array Data</h1>
-      
-      console.log(arr)
+      <h5>[arr.0]</h5>
     </>
   )
 }
